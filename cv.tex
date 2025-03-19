@@ -1,0 +1,268 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+
+%---------- FONT OPTIONS ----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-1pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-2pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeEducationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      % \textit{\small#5} & \textit{\small #6} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeOrganizationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3}
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-5pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-7pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%---------- HEADING ----------
+
+\begin{center}
+    \textbf{\Huge \scshape Ray Tsai} \\ \vspace{7pt}
+    \small
+    \faMobile \hspace{.5pt} \href{tel:18589050735}{+1 (858) 905-0735}
+    $\cdot$
+    \faAt \hspace{.5pt} \href{mailto:raytsai919@gmail.com}{raytsai919@gmail.com}
+    % $\cdot$
+    % \faLinkedinSquare \hspace{.5pt} \underline{\href{https://www.linkedin.com/in/himetsai}{LinkedIn}}
+    % $\cdot$
+    % \faGithub \hspace{.5pt} \underline{\href{https://github.com/himetsai}{GitHub}}
+    % $\cdot$
+    % \faGlobe \hspace{.5pt} \underline{\href{https://himetsai.com}{Website}}
+\end{center}
+
+%----------- EDUCATION -----------
+
+\section{Education}
+  \vspace{5pt}
+  \resumeSubHeadingListStart \resumeEducationHeading {University of California San Diego }{La Jolla,
+    CA} {B.Sc. in Mathematics-Computer Science (Math GPA: 4.0/4.0)}{Sep 2021 \textbf{--} Jun 2025}
+    \resumeItemListStart 
+
+    \resumeItem{\textbf{Honors Thesis Supervisor:} Jacques Verstraete} 
+    
+    \resumeItem{\textbf{Relevant coursework:} Abstract Algebra, Real Analysis, Extremal
+    Combinatorics and Graph Theory, Algebraic Combinatorics, Graduate Combinatorics, Graduate
+    Complex Analysis, Graduate Statistical Learning, Design and Algorithm Analysis, Theory of
+    Computation, Advanced Data Structure} 
+    \resumeItemListEnd \resumeSubHeadingListEnd
+
+%----------- RESEARCH EXPERIENCE -----------
+
+\section{Research Experience}
+  \vspace{5pt}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {UC San Diego, Department of Mathematics}{La Jolla, CA}
+      {Undergraduate Research Assistant}{Mar 2023 \textbf{--} Present}
+        \resumeItemListStart
+    \resumeItem{Solving open problems and studying related literature in extremal combinatorics
+    under the guidance of \href{https://annatar0.wixsite.com/website-4}{Prof. Jacques Verstraete}.}
+            \resumeItem{Writing an honors thesis on the Double Turán problems}
+            \resumeItem{Wrote code in SageMath to look for counterexamples for conjectures.}
+        \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {UC San Diego, Department of CSE}{La Jolla, CA}
+      {Undergraduate Research Assistant}{Apr 2024 \textbf{--} Present}
+        \resumeItemListStart
+    \resumeItem{Conducting research on the Algorithm Fairness and Multicalibration in learning models under Prof. Russell Impagliazzo.}
+        \resumeItem{Read literature on the topic of smooth boosting and its applications to combinatorics and multicalibration.}
+        \resumeItem{Worked through graduate level complexity theory textbook piror to research.}
+        \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%----------- WORK EXPERIENCE -----------
+
+\section{Work Experience}
+  \vspace{5pt}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Software Engineer}{New Taipei City, Taiwan}
+      {MSI}{Jul 2023 \textbf{--} Aug 2023, Full-time}
+      \resumeItemListStart
+          \resumeItem{Collaborated with a 5-member team to develop a Windows-based application for local AI image generation and model training.}
+          \resumeItem{Pioneered a custom model using Stable Diffusion, effectively generating images of MSI laptops.}
+          \resumeItem{Architected and implemented an installation process for multiple optimizers, boosting image generation speeds by 80\%.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Co-founder \& Lead Software Engineer}{San Diego, CA}
+      {Kook}{Dec 2021 \textbf{--} Dec 2022, Start-up}
+      \resumeItemListStart
+          \resumeItem{Led a 5-member team in the creation of an automated surfboard rental station, incubated by UCSD Basement Blackstone LaunchPad and ECE Makerspace.}
+          \resumeItem{Operated as a full-stack engineer, independently learning app development to architect the company's application, facilitating access to the surfboard station, and documenting the rental history.}
+          \resumeItem{Innovated the station's unlock system by leveraging NFC technology, significantly enhancing the user experience.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+\section{Teaching Experience}
+
+\vspace{5pt}
+  \resumeSubHeadingListStart
+
+  \resumeSubheading
+    {Instructional Assistant}{La Jolla, CA}
+    {UC San Diego, Department of CSE}{Jan 2025 \textbf{--} Mar 2025, Part-time}
+      \resumeItemListStart
+      \resumeItem{Tutored students in the Design \& Analysis of Algorithms course.}
+      \resumeItem{Held weekly office hours to address student questions and provide additional support.}
+      \resumeItem{Graded homework assignments, midterms, and final exams.}
+      \resumeItemListEnd
+
+  \resumeSubheading
+    {Private Tutoring}{San Diego, CA}
+    {Self-employed}{Aug 2024 \textbf{--} Present, Part-time}
+    \resumeItemListStart
+      \resumeItem{Designed individualized 10th-grade geometry lessons that address student's needs.}
+  \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%----------- Additional Experience -----------
+
+\section{Additional Experience}
+  \vspace{5pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+      \textbf{William Lowell Putnam Mathematical Competition}{ Scored 20 out of 120 possible points on the most prestigious undergraduate level math competition.} \\ \vspace{5pt}
+    }}
+    \small{\item{
+    \textbf{Combinatorics Seminar}{ Participates in weekly seminar on various topics on modern
+    combinatorics research held by the UCSD Math Department} \\ \vspace{5pt}
+    }}
+    \small{\item{
+        \textbf{UCSD Theory Group}{ Attended various seminars and weekly meetings on theoretical computer science. } \\ \vspace{5pt}
+    }}
+  \resumeSubHeadingListEnd
+
+%----------- SKILLS -----------
+
+\section{Skills}
+  \resumeSubHeadingListStart
+    \small{\item{
+    LaTeX, TypeScript(React Native, Next.js), Python(Pytorch, SageMath, Flask, Selenium), C/C++, Java, Git
+    }}
+  \resumeSubHeadingListEnd
+
+% ----------- HOBBIES -----------
+
+% \section{Hobbies}
+%   \resumeSubHeadingListStart
+%     \small{\item{Swimming, Chess, Electric Guitar, Math, Blogging, \href{https://www.linkedin.com/in/audrey-liang-2022/}{Audrey Liang}, Mario Kart, Super Smash Bros Ultimate}}
+%   \resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
