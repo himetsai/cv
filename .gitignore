@@ -1,2 +1,9 @@
 .DS_Store
 *.gz
+*.aux
+*.log
+*.out
+
+CLAUDE.md
+
+mini_project.pdf
