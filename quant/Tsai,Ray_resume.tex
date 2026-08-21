@@ -110,10 +110,10 @@
 \section{Education}
 \resumeSubHeadingListStart
 
-  \resumeEducationHeading{University of Oxford}{Oxford, United Kingdom}{M.Sc. in Mathematical Sciences, Grade: Distinction (75\%)}{Sep 2025 \textbf{--} Jun 2026}
+  \resumeEducationHeading{University of Oxford}{Oxford, United Kingdom}{M.Sc. in Mathematical Sciences, Grade: Distinction (75\%), Rank: 13/77}{Sep 2025 \textbf{--} Jun 2026}
   \resumeItemListStart
     \resumeItem{\textbf{Dissertation:} \textit{Induced Subgraphs in Ramsey Graphs}, advised by Prof. Alex Scott}
-    \resumeItem{\textbf{Relevant coursework:} Probabilistic Combinatorics, Probability on Graphs and Lattices, Continuous Optimization, Networks, Combinatorics, Theories of Deep Learning}
+    \resumeItem{\textbf{Relevant coursework:} Probability on Graphs and Lattices, Probabilistic Combinatorics, Continuous Optimization, Theories of Deep Learning, Combinatorics}
   \resumeItemListEnd
 
   \vspace{3pt}
@@ -121,7 +121,7 @@
   \resumeEducationHeading{University of California San Diego}{La Jolla, CA}{B.Sc. in Mathematics-Computer Science (Honors with High Distinction), Math GPA: 3.98/4.0}{Sep 2021 \textbf{--} Jun 2025}
   \resumeItemListStart
     \resumeItem{\textbf{Honors Thesis:} \textit{Double Turán Problems}, advised by Prof. Jacques Verstraete}
-    \resumeItem{\textbf{Relevant coursework:} Extremal Combinatorics and Graph Theory (Honors), Algebraic Combinatorics (Graduate), Discrete Geometry (Graduate), Statistical Learning (Graduate)}
+    \resumeItem{\textbf{Graduate coursework:} Statistical Learning, Combinatorics, Discrete Geometry, Complex Analysis}
   \resumeItemListEnd
 
 \resumeSubHeadingListEnd
@@ -132,8 +132,7 @@
 \resumeSubHeadingListStart
   \resumeSubSubheading{Physical Sciences Dean's Undergraduate Award for Excellence}{UC San Diego, 2025}
   \resumeItemListStart
-    \resumeItem{``Awarded to top undergraduates in Mathematics, Chemistry \& Biochemistry, and Physics for academic excellence and research promise.'' (\$1000)}
-    \resumeItem{Given to $<1\%$ of undergraduates in the physical sciences.}
+    \resumeItem{``Awarded to top undergraduates ($<1\%$) in Mathematics, Chemistry \& Biochemistry, and Physics for academic excellence and research promise.'' (\$1000)}
   \resumeItemListEnd
 \resumeSubHeadingListEnd
 
@@ -182,7 +181,7 @@
     {Kook}{San Diego, CA}
     {Co-founder \& Lead Software Engineer}{Dec 2021 \textbf{--} Dec 2022}
     \resumeItemListStart
-      \resumeItem{Co-founded hardware-software startup; led 5-member engineering team, built full-stack mobile application in React-Native and mySQL and embedded firmware in C++ for hardware control.}
+      \resumeItem{Co-founded hardware-software startup; led 5-member engineering team, built full-stack mobile application in React-Native, Python, mySQL and embedded firmware in C++ for hardware control.}
     \resumeItemListEnd
 \resumeSubHeadingListEnd
 
@@ -193,12 +192,18 @@
 \section{Projects}
 \resumeSubHeadingListStart
 
-  \resumeProjectHeading
-    {\textbf{Mathematical Analysis of Efficient Adversarial Robustness} $|$ \textit{Python, PyTorch}}{Oxford, 2026}
-    \resumeItemListStart
-      \resumeItem{Derived a unified theoretical framework connecting FGSM-based training and Input Gradient Regularization via the Finlay-Oberman local robustness bound; formally characterised catastrophic overfitting as the model exploiting first-order approximation error.}
-      \resumeItem{Designed and ran controlled experiments on CIFAR-10 varying activation function smoothness; confirmed theoretical predictions and demonstrated that smooth activations recover near-optimal robustness at a fraction of standard adversarial training cost.}
-    \resumeItemListEnd
+\resumeProjectHeading
+{\textbf{\href{https://github.com/himetsai/kalshi}{Are Kalshi Prices Probabilities?}} $|$ \textit{Python, pandas, NumPy}}{Oxford, 2026}
+\resumeItemListStart
+  \resumeItem{Built an end-to-end pipeline over the Kalshi public API testing whether prediction-market prices behave as calibrated probabilities, using Brier decomposition, logistic calibration fits, and event-clustered bootstrap confidence intervals.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+  {\textbf{Mathematical Analysis of Efficient Adversarial Robustness} $|$ \textit{Python, PyTorch}}{Oxford, 2026}
+  \resumeItemListStart
+    \resumeItem{Unified FGSM-based training and Input Gradient Regularization via the Finlay-Oberman robustness bound, characterising catastrophic overfitting as exploitation of first-order approximation error.}
+    \resumeItem{Confirmed on CIFAR-10 that smooth activations recover near-optimal robustness at a fraction of standard adversarial training cost.}
+  \resumeItemListEnd
 
 \resumeSubHeadingListEnd
 \end{document}
